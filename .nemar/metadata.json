@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on006434",
-  "source": "openneuro",
-  "source_id": "ds006434",
+  "pipeline_stage": "validated",
   "title": "The auditory brainstem response to natural speech is not affected by selective attention",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Thomas J Stoll": {},
     "Nathan D Vandjelovic": {},
@@ -12,39 +12,92 @@
     "Adrian K C Lee": {},
     "Ross K Maddox": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006434.v1.2.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006434",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006434",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH R00 DC014288"
+      "funder_name": "NIH",
+      "award_number": "R00 DC014288"
     },
     {
-      "funder_name": "NIH R21 DC019489"
+      "funder_name": "NIH",
+      "award_number": "R21 DC019489"
     },
     {
-      "funder_name": "NIH R01 DC013260"
+      "funder_name": "NIH",
+      "award_number": "R01 DC013260"
     },
     {
-      "funder_name": "NSF 2142612"
+      "funder_name": "NSF",
+      "award_number": "2142612"
     },
     {
-      "funder_name": "NSF 2448814"
+      "funder_name": "NSF",
+      "award_number": "2448814"
     }
   ],
-  "acknowledgements": "We thank Yathida Melody Anankul, Ashlynne G Xavier, Tiffany Waddington, and Susan A McLaughlin for assistance with data collection. We are grateful to Tobias Reichenbach and colleagues for freely sharing experimental data and stimuli, and to Skyler G Jennings for teaching us how to make and use the eardrum electrodes."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "110.6 GB (482 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".fif",
+    ".hdf5",
+    ".ipynb",
+    ".json",
+    ".md",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".wav",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from three experiments investigating the effects of selective attention on auditory brainstem and cortical responses to natural speech. Participants listened to audiobook narrations under different stimulus configurations (diotic, dichotic, and passive listening conditions) while EEG was recorded from both cortical (32-channel active montage) and subcortical (passive bipolar montage) electrode arrays. The study examines whether selective attention modulates the auditory brainstem response to natural speech stimuli.",
+  "methods_description": "EEG data were collected simultaneously from 32-channel active montages (cortical responses) and passive bipolar montages (subcortical responses, FCz to earlobe). Initial sampling rate was 25 kHz, with cortical data downsampled to 1 kHz and subcortical data to 10 kHz. Experiment 1 (n=28) involved diotic presentation of two audiobooks at 65 dB SPL with selective attention cues. Experiment 2 (n=25) used dichotic stimulus presentation at 65 dB SPL. Experiment 3 (n=14) involved passive listening to paired audiobooks at 73-76 dB SPL. Trigger onset times were corrected for tubing delay of insert earphones.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "auditory brainstem response"
+    },
+    {
+      "term": "selective attention"
+    },
+    {
+      "term": "speech perception"
+    },
+    {
+      "term": "natural speech"
+    },
+    {
+      "term": "cortical responses"
+    },
+    {
+      "term": "subcortical responses"
+    }
+  ],
+  "source_hash": "cb36e0c76c6d4aa87d921e2c31fa34d4a3f7eb8813eb3d94efdf971beb30f571"
 }
