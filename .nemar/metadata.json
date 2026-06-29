@@ -1,0 +1,50 @@
+{
+  "version": "2.0",
+  "dataset_id": "on006434",
+  "source": "openneuro",
+  "source_id": "ds006434",
+  "title": "The auditory brainstem response to natural speech is not affected by selective attention",
+  "authors": {
+    "Thomas J Stoll": {},
+    "Nathan D Vandjelovic": {},
+    "Melissa J Polonenko": {},
+    "Nadja R S Li": {},
+    "Adrian K C Lee": {},
+    "Ross K Maddox": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006434.v1.2.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "NIH R00 DC014288"
+    },
+    {
+      "funder_name": "NIH R21 DC019489"
+    },
+    {
+      "funder_name": "NIH R01 DC013260"
+    },
+    {
+      "funder_name": "NSF 2142612"
+    },
+    {
+      "funder_name": "NSF 2448814"
+    }
+  ],
+  "acknowledgements": "We thank Yathida Melody Anankul, Ashlynne G Xavier, Tiffany Waddington, and Susan A McLaughlin for assistance with data collection. We are grateful to Tobias Reichenbach and colleagues for freely sharing experimental data and stimuli, and to Skyler G Jennings for teaching us how to make and use the eardrum electrodes."
+}
