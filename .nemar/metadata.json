@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "The auditory brainstem response to natural speech is not affected by selective attention",
+  "description": "This dataset contains EEG recordings from three experiments investigating whether the auditory brainstem response (ABR) to natural continuous speech is modulated by selective attention. Participants listened to narrated audiobooks under diotic, dichotic, and passive listening conditions while cortical and subcortical EEG responses were simultaneously recorded. The dataset supports the study by Stoll et al. (2025) published in PLOS Biology, examining subcortical and cortical processing of attended versus unattended speech.",
+  "methods_description": "EEG was recorded simultaneously from a 32-channel active montage (cortical responses) and a 2-channel passive bipolar montage referenced to FCz and earlobes (subcortical responses), with some subjects also fitted with an eardrum electrode. Data were sampled at 25 kHz, with cortical channels downsampled to 1 kHz and subcortical channels to 10 kHz. Participants listened to audiobook stimuli presented diotically or dichotically at controlled sound pressure levels (65-76 dB SPL) in a soundproof room, and were cued to attend to one of two narrators per trial or to passively ignore the stimuli while engaging in a distractor task.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,6 +14,42 @@
     "Adrian K C Lee": {},
     "Ross K Maddox": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "auditory brainstem response"
+    },
+    {
+      "term": "selective attention"
+    },
+    {
+      "term": "Speech Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013067"
+    },
+    {
+      "term": "cortical processing"
+    },
+    {
+      "term": "subcortical processing"
+    },
+    {
+      "term": "natural speech stimuli"
+    },
+    {
+      "term": "audiobook stimuli"
+    },
+    {
+      "term": "continuous speech"
+    },
+    {
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006434.v1.2.0",
@@ -52,10 +90,10 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "110.6 GB (482 files)"
   ],
@@ -73,31 +111,6 @@
     ".vmrk",
     ".wav",
     ".yml"
-  ],
-  "description": "This dataset comprises EEG recordings from three experiments investigating the effects of selective attention on auditory brainstem and cortical responses to natural speech. Participants listened to audiobook narrations under different stimulus configurations (diotic, dichotic, and passive listening conditions) while EEG was recorded from both cortical (32-channel active montage) and subcortical (passive bipolar montage) electrode arrays. The study examines whether selective attention modulates the auditory brainstem response to natural speech stimuli.",
-  "methods_description": "EEG data were collected simultaneously from 32-channel active montages (cortical responses) and passive bipolar montages (subcortical responses, FCz to earlobe). Initial sampling rate was 25 kHz, with cortical data downsampled to 1 kHz and subcortical data to 10 kHz. Experiment 1 (n=28) involved diotic presentation of two audiobooks at 65 dB SPL with selective attention cues. Experiment 2 (n=25) used dichotic stimulus presentation at 65 dB SPL. Experiment 3 (n=14) involved passive listening to paired audiobooks at 73-76 dB SPL. Trigger onset times were corrected for tubing delay of insert earphones.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "auditory brainstem response"
-    },
-    {
-      "term": "selective attention"
-    },
-    {
-      "term": "speech perception"
-    },
-    {
-      "term": "natural speech"
-    },
-    {
-      "term": "cortical responses"
-    },
-    {
-      "term": "subcortical responses"
-    }
   ],
   "source_hash": "cb36e0c76c6d4aa87d921e2c31fa34d4a3f7eb8813eb3d94efdf971beb30f571"
 }
