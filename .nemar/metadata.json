@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The auditory brainstem response to natural speech is not affected by selective attention",
-  "description": "This dataset contains EEG recordings from three experiments investigating whether the auditory brainstem response (ABR) to natural continuous speech is modulated by selective attention. Participants listened to narrated audiobooks under diotic, dichotic, and passive listening conditions while cortical and subcortical EEG responses were simultaneously recorded. The dataset supports the study by Stoll et al. (2025) published in PLOS Biology, examining subcortical and cortical processing of attended versus unattended speech.",
-  "methods_description": "EEG was recorded simultaneously from a 32-channel active montage (cortical responses) and a 2-channel passive bipolar montage referenced to FCz and earlobes (subcortical responses), with some subjects also fitted with an eardrum electrode. Data were sampled at 25 kHz, with cortical channels downsampled to 1 kHz and subcortical channels to 10 kHz. Participants listened to audiobook stimuli presented diotically or dichotically at controlled sound pressure levels (65-76 dB SPL) in a soundproof room, and were cued to attend to one of two narrators per trial or to passively ignore the stimuli while engaging in a distractor task.",
+  "description": "EEG recordings from three experiments investigating whether selective attention to natural speech modulates the auditory brainstem response and cortical responses. Experiments 1 and 2 used diotic and dichotic presentation of two competing audiobooks with attention directed to one narrator, while Experiment 3 used passive listening to audiobook stimuli from a previous study. Simultaneous cortical (32-channel active) and subcortical (bipolar passive, with eardrum electrodes in a subset of participants) recordings are provided in BIDS format.",
+  "methods_description": "Participants listened to 64 s (Exp 1, 2) or ~117 s (Exp 3) audiobook trials in a soundproof room and were cued to attend to one narrator, or to ignore the audio in the passive experiment. EEG was recorded at 25 kHz using a 32-channel active montage for cortical responses and a 2-channel passive bipolar montage (FCz to earlobes) for subcortical responses. Cortical data were downsampled to 1 kHz and subcortical data to 10 kHz. Stimulus triggers were corrected for insert earphone tubing delay.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,29 +25,13 @@
       "term": "selective attention"
     },
     {
-      "term": "Speech Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013067"
+      "term": "natural speech"
     },
     {
-      "term": "cortical processing"
+      "term": "subcortical"
     },
     {
-      "term": "subcortical processing"
-    },
-    {
-      "term": "natural speech stimuli"
-    },
-    {
-      "term": "audiobook stimuli"
-    },
-    {
-      "term": "continuous speech"
-    },
-    {
-      "term": "Attention",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
+      "term": "audiobook"
     }
   ],
   "related_identifiers": [
@@ -95,7 +79,7 @@
     "eeg"
   ],
   "sizes": [
-    "110.6 GB (482 files)"
+    "103 GB (482 files)"
   ],
   "formats": [
     ".csv",
